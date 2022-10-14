@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AES</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+      <h1>Cifrado AES</h1>
+      <div class="content">
+        <table>
+          <tr>
+            
+            <td><p>
+              Subir un archivo:
+              <input type="file" id="text" value="sube un archivo" />
+            </td></p>
+          </tr>
+          <tr>
+            <td><p>
+              Ingresar una clave:
+              <input type="text" id="key"  required minlength="8" maxlength="8"/></p>
+            </td>
+          </tr>
+          <tr>
+            <td><p>
+              <input type="button" id="en" value="Cifrar"/>
+              <input type="button" id="de" value="Descifrar"/>
+            </p></td>
+          </tr>
+          <tr>
+            <td><p>
+              <div id="res">
+
+              </div>
+            </p>
+              
+            </td>
+          </tr>
+        </table>    
+      </div>
+
+
+   <script src="js/des.js"></script> 
+</body>
+
+</html>

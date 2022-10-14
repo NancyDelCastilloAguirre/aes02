@@ -1,0 +1,62 @@
+body {
+  background-color: rgb(181, 123, 247) ;
+    
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+  }
+      * {
+        box-sizing: border-box;
+      }
+      
+      
+      /* Style the side navigation */
+      .sidenav {
+        height: 100%;
+        width: 200px;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        
+        overflow-x: hidden;
+        
+      }
+      
+      
+      /* Side navigation links */
+      .sidenav a {
+        color: white;
+        padding: 16px;
+        text-decoration: none;
+        display: block;
+      }
+      
+      /* Change color on hover */
+      .sidenav a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+      
+      /* Style the content */
+      .content {
+        margin-left: 200px;
+        padding-left: 20px;
+        background-blend-mode: #ddd;
+      }
+      table {
+        align-items: center;
+        align-content: center;
+        text-align: center;
+        
+      }
+      h1 {
+        color: white;
+        text-align: center;
+      }
+      p {
+        font-family: verdana;
+        font-size: 20px;
+        color: white;
+      }
