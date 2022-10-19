@@ -76,4 +76,6 @@ body {
       .input1{
         background-color: "beige";
         border-radius: 2px;
+        border: none;
+        padding: 8px;
       }
