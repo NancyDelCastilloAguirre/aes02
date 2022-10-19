@@ -73,6 +73,7 @@ body {
         cursor: pointer;
         border-radius: 2px;
       }
-      input{
+      .input1{
+        background-color: "beige";
         border-radius: 2px;
       }
