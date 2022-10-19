@@ -14,7 +14,7 @@ function lenghtPassword(){
       document.getElementById('key2').style.display = 'block';
       document.getElementById('dos').style.display = 'block';
       document.getElementById('sdos').style.display = 'block';
-      document.getElementById('key').style.display = 'none';
+      document.getElementById('key1').style.display = 'none';
       document.getElementById('suno').style.display = 'none';
       document.getElementById('uno').style.display = 'none';
       document.getElementById('key3').style.display = 'none';
